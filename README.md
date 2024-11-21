@@ -114,7 +114,7 @@ php -S localhost:8000 -t src/public
 
 ---
 ## **Configuração de Virtual Host (Caso necessário)**
-Adicione o seguinte bloco ao arquivo de configuração do Apache (`httpd-vhosts.conf`), que geralmente está localizado em `C:/xampp/apache/conf/extra/httpd-vhosts.conf` (em XAMPP) ou `/etc/apache2/sites-available/` (em servidores Linux):
+Adicione o seguinte bloco ao arquivo de configuração do Apache (`httpd-vhosts.conf`), que geralmente está localizado em `C:/xampp/apache/conf/extra/httpd-xampp.conf` (em XAMPP) ou `/etc/apache2/sites-available/` (em servidores Linux):
 ```
 <VirtualHost *:80> 
     DocumentRoot "CAMINHO_COMPLETO_PARA_SEU_PROJETO/public" 
